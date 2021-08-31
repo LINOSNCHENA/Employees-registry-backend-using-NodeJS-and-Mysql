@@ -27,7 +27,7 @@ app.post("/login", function (req, res) {
   dbFunctions.loginUser(req, res);
 });
 
-const PORT1 = process.env.PORT1 || 1921;
+const PORT1 = process.env.PORT1 || 8080;
 app.listen(PORT1, () =>
   console.log(`BackEnd3 -ADMINDATA- is listening on Port-1 : ${PORT1}`)
 );

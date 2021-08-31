@@ -7,7 +7,7 @@ const dataContact = require("./app/xcontacts");
 const dataFamily = require("./app/xfamily");
 const data4Smart = require("./app/xsmart");
 
-const port = 8000;
+const port = 8080;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

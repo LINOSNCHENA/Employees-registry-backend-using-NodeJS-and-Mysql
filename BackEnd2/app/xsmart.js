@@ -7,7 +7,7 @@ const pool = new Pool({
   host: "localhost",
   database: "presly",
   password: "Monze2020",
-  port: 5433,
+  port: 5432,
 });
 
 const createEmployee = (request, response) => {
