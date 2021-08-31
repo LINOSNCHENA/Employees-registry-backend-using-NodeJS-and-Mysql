@@ -1,5 +1,6 @@
 ALTER USER 'root' @'localhost' IDENTIFIED WITH mysql_native_password BY 'Monze@2019';
 
+CREATE DATABASE IF NOT EXISTS presly;
 use presly;
 
 DROP TABLE IF EXISTS `BANK1`;

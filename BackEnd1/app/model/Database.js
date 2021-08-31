@@ -6,7 +6,7 @@ var mysql = require("mysql");
 var connection1 = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Monze@2019",
+  password: "Monze2020",
   database: "presly",
 });
 module.exports = connection1;
@@ -16,7 +16,7 @@ module.exports = connection1;
 var connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Monze@2019",
+  password: "Monze2020",
   database: "presly",
 });
 module.exports = connection;
